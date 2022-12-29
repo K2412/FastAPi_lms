@@ -16,21 +16,21 @@ async def create_courses():
     return {"courses": []}
 
 
-@router.get("/courses/:id")
+@router.get("/courses/{id}")
 async def read_course():
     return {"courses": []}
 
 
-@router.patch("/courses/:id")
+@router.patch("/courses/{id}")
 async def update_course():
     return {"courses": []}
 
 
-@router.delete("/courses/:id")
+@router.delete("/courses/{id}")
 async def delete_users():
     return {"courses": []}
 
 
-@router.get("/courses/:id/sections")
+@router.get("/courses/{id}/sections")
 async def read_course_sections():
     return {"courses": []}

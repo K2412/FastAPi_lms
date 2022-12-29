@@ -20,7 +20,7 @@ class User(BaseModel):
 @router.get("/users", response_model=List[User])
 async def get_users():
     return users
-
+# seperate function for each HTTP method
 @router.post("/users")
 # Data validation, validating that information being passed to the databas is appropriate
 async def post_message(user: User):
