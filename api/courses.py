@@ -11,28 +11,26 @@ async def read_course():
 
 
 
-@router.post("/courses/:id")
-async def get_users():
+@router.post("/courses")
+async def create_courses():
     return {"courses": []}
 
 
-
-
 @router.get("/courses/:id")
-async def get_users():
+async def read_course():
     return {"courses": []}
 
 
 @router.patch("/courses/:id")
-async def get_users():
+async def update_course():
     return {"courses": []}
 
 
 @router.delete("/courses/:id")
-async def get_users():
+async def delete_users():
     return {"courses": []}
 
 
-@router.get("/courses/:id")
-async def get_users():
+@router.get("/courses/:id/sections")
+async def read_course_sections():
     return {"courses": []}

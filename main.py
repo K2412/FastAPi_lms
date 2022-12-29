@@ -3,7 +3,8 @@ from fastapi import FastAPI, Path, Query
 from pydantic import BaseModel
 from typing import Optional, List
 
-from api import users,sections,courses
+from api import user,sections,courses
+
 app = FastAPI(
     title="Fast API LMS",
     description="LMS for managing courses and students",version="0.0.1",
