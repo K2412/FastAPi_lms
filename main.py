@@ -9,7 +9,6 @@ user_models.Base.metadata.create_all(bind=engine)
 courses_models.Base.metadata.create_all(bind=engine)
 
 
-
 app = FastAPI(
     title="Fast API LMS",
     description="LMS for managing courses and students",version="0.0.1",
