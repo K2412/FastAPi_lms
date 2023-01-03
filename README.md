@@ -6,7 +6,5 @@ Small CRUD project to learn implementing REST API with FastAPI. I uused SQL alch
 
 ## Demo
 
-![](name-of-giphy.gif)
-
-![](name-of-giphy.gif)
-
+![Alt Text](<iframe src="https://giphy.com/embed/JbthTJE8cywqfp3yrx" width="480" height="300" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/JbthTJE8cywqfp3yrx">via GIPHY</a></p>)
+![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
