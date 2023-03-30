@@ -1,7 +1,7 @@
 
 # Small Fast API Learning Management System project 
 
-Small CRUD project to learn implementing REST API with FastAPI. I uused SQL alchemy/Alembic as an ORM a in addition to Pydantic for validation. 
+Small CRUD project to learn implementing REST API with FastAPI. I used SQL alchemy/Alembic as an ORM a in addition to Pydantic for validation. 
 
 
 ## Demo
